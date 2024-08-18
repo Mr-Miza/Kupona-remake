@@ -1,3 +1,5 @@
+import zara from '../src/images/zara.png';
+
 function Nav () {
     return (
         <div>
@@ -21,11 +23,26 @@ function Nav () {
             <div className="MainPart">
                 <div>
                     <h1 className="MainTitle">The Best Deals</h1>
-                    <p className="MainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nulla et nunc ultricies sodales. </p>
+                    <p className="MainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nulla et nunc ultricies sodales. </p>   
+                
+                <div className='carosel'>
+                     
+                    <div className='cupons'>
+                        <img src={zara} alt=''/>
+                        <div className="cupon-description">
+                            <p> Something aint going right </p>
+                            <p> 50% off </p>    
+                        </div>
+                    </div>  
+
+                </div>
                 </div>
             </div>
+
+           
 
         </div>
     );
 }
+
 export default Nav;

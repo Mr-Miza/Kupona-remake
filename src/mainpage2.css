@@ -52,12 +52,26 @@
     color: inherit;
 }
 
+/* -------------------------------------------------------------- */
+
+/* -------------------------Cupons------------------------------- */
+
+
+
 .cupons {
     margin-top: 5%;
     margin-left: 5%;
+    height: fit-content;
+    width: fit-content;
+    background-color: #f1c40f;
 }
 
 .cupons img {
-    width: 25%;
+    width: 250px;
     height: 25%;
+}
+.carosel {
+   display: flex;
+   justify-content: space-evenly;
+
 }

@@ -73,5 +73,8 @@
 .carosel {
    display: flex;
    justify-content: space-evenly;
+   background-color: aqua;
+   width: 1100px;
+    height: 100%;
 
 }

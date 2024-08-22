@@ -8,9 +8,9 @@ function Nav () {
                 </div>
 
                 <ul className="TheList"> 
-                    <li> <a href="google.com" class="no-link-style">Home</a></li>                  
-                    <li> <a href="google.com" class="no-link-style">Shop</a></li>                    
-                    <li> <a href="google.com" class="no-link-style">Blog</a></li>                    
+                    <li> <a href="google.com" className="no-link-style">Home</a></li>                  
+                    <li> <a href="google.com" className="no-link-style">Shop</a></li>                    
+                    <li> <a href="google.com" className="no-link-style">Blog</a></li>                    
                 </ul>
 
                 <div className="Register">

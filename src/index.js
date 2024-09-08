@@ -8,12 +8,17 @@ import MainPage from './mainpage';
 import './mainpage2.css';  
 
 import Carousel from './Carosel';
+import Body from './MainOffers' ;
+
+import End from './footer' ;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MainPage />
     <Carousel/> 
+    <Body/>
+    <End/>
   </React.StrictMode>
 );
 

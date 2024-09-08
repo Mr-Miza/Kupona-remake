@@ -71,10 +71,72 @@
     height: 25%;
 }
 .carosel {
-   display: flex;
-   justify-content: space-evenly;
-   background-color: aqua;
-   width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 1100px;
     height: 100%;
+}
 
+/* -------------------------------------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    background-color: #f1c40f;
+    padding: 10px;
+}
+.container-item {
+    margin: 10px;
+    height: fit-content;
+    width: 25%;
+    padding: 10px;
+    background-color: #a23b3b;
+    align-items: center;
+}
+.container-item img {
+    width: 100%;
+    height: 90%;
+}
+
+.container-item > p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.foot-container {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    padding: 3vw 0 3vw 0;
+}
+
+.refs{
+    background-color: beige;
+    padding: 33px;
+}
+.refs h1 , p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts {
+    background-color: beige;
+    padding: 33px;
+}
+
+.others{
+    background-color: beige;
+    padding: 33px;
 }
